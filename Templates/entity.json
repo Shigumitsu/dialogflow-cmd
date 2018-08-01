@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "displayName": "string",
+  "kind": "enum(Kind)",
+  "autoExpansionMode": "enum(AutoExpansionMode)",
+  "entities": [
+    {
+      "value": "string",
+      "synonyms": [
+        "string"
+      ]
+    }
+  ]
+}

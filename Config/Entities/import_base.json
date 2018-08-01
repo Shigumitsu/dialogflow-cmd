@@ -1,0 +1,9 @@
+{
+  "languageCode": $LANGUAGE,
+
+  "entityTypeBatchInline": {
+    "entityTypes": [
+      $ENTITIES
+    ]
+  }
+}

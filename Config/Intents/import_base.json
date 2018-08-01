@@ -1,0 +1,10 @@
+{
+  "languageCode": $LANGUAGE,
+  "intentView": "INTENT_VIEW_UNSPECIFIED",
+
+  "intentBatchInline": {
+    "intents": [
+      $INTENTS
+    ]
+  }
+}

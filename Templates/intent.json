@@ -1,0 +1,173 @@
+{
+  "name": "string",
+  "displayName": "string",
+  "webhookState": "enum(WebhookState)",
+  "priority": "number",
+  "isFallback": "boolean",
+  "mlDisabled": "boolean",
+  "inputContextNames": [
+    "string"
+  ],
+  "events": [
+    "string"
+  ],
+  "trainingPhrases": [
+    {
+      "name": "string",
+      "type": "enum(Type)",
+      "parts": [
+        {
+          "text": "string",
+          "entityType": "string",
+          "alias": "string",
+          "userDefined": "boolean"
+        }
+      ],
+      "timesAddedCount": "number"
+    }
+  ],
+  "action": "string",
+  "outputContexts": [
+    {
+      "name": "string",
+      "lifespanCount": "number",
+      "parameters": {
+        "object": "object"
+      }
+    }
+  ],
+  "resetContexts": "boolean",
+  "parameters": [
+    {
+      "name": "string",
+      "displayName": "string",
+      "value": "string",
+      "defaultValue": "string",
+      "entityTypeDisplayName": "string",
+      "mandatory": "boolean",
+      "prompts": [
+        "string"
+      ],
+      "isList": "boolean"
+    }
+  ],
+  "messages": [
+    {
+      "platform": "enum(Platform)",
+      "text": {
+        "text": [
+          "string"
+        ]
+      },
+      "image": {
+        "imageUri": "string",
+        "accessibilityText": "string"
+      },
+      "quickReplies": {
+        "title": "string",
+        "quickReplies": [
+          "string"
+        ]
+      },
+      "card": {
+        "title": "string",
+        "subtitle": "string",
+        "imageUri": "string",
+        "buttons": [
+          {
+            "text": "string",
+            "postback": "string"
+          }
+        ]
+      },
+      "payload": {
+        "object": "object"
+      },
+      "simpleResponses": {
+        "simpleResponses": [
+          {
+            "textToSpeech": "string",
+            "ssml": "string",
+            "displayText": "string"
+          }
+        ]
+      },
+      "basicCard": {
+        "title": "string",
+        "subtitle": "string",
+        "formattedText": "string",
+        "image": {
+          "imageUri": "string",
+          "accessibilityText": "string"
+        },
+        "buttons": [
+          {
+            "title": "string",
+            "openUriAction": {
+              "uri": "string"
+            }
+          }
+        ]
+      },
+      "suggestions": {
+        "suggestions": [
+          {
+            "title": "string"
+          }
+        ]
+      },
+      "linkOutSuggestion": {
+        "destinationName": "string",
+        "uri": "string"
+      },
+      "listSelect": {
+        "title": "string",
+        "items": [
+          {
+            "info": {
+              "key": "string",
+              "synonyms": [
+                "string"
+              ]
+            },
+            "title": "string",
+            "description": "string",
+            "image": {
+              "imageUri": "string",
+              "accessibilityText": "string"
+            }
+          }
+        ]
+      },
+      "carouselSelect": {
+        "items": [
+          {
+            "info": {
+              "key": "string",
+              "synonyms": [
+                "string"
+              ]
+            },
+            "title": "string",
+            "description": "string",
+            "image": {
+              "imageUri": "string",
+              "accessibilityText": "string"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "defaultResponsePlatforms": [
+    "enum(Platform)"
+  ],
+  "rootFollowupIntentName": "string",
+  "parentFollowupIntentName": "string",
+  "followupIntentInfo": [
+    {
+      "followupIntentName": "string",
+      "parentFollowupIntentName": "string"
+    }
+  ]
+}
